@@ -17,9 +17,8 @@ You will need a Robot or a Simulator (https://www.universal-robots.com/download/
 
 -Download and setup Anaconda (Python 3.х version) https://www.anaconda.com/download/
 
--Download URX library from https://github.com/jkur/python-urx/tree/SW3.5/urx to "drive\path-to-anaconda3\Lib\site-packages\urx"
-Attention: RTDE protocol had changed in Polyscope 3.5, so you will need to use given fork instead of original source.
-if you have got URX from pip, you have to replace all library files from link above.
+-Download URX library from https://github.com/SintefManufacturing/python-urx to "drive\path-to-anaconda3\Lib\site-packages\urx"
+Attention: RTDE protocol had changed in Polyscope 3.5, so if you have got URX from pip and you lost connection with the robot after each command, you have to replace all library files from link above.
 
 
 -Download the last version of this notebook https://github.com/LukeSkypewalker/URX-jupiter-notebook
@@ -29,4 +28,4 @@ if you have got URX from pip, you have to replace all library files from link ab
 
 "C:\path-to\Anaconda3\python.exe" "C:\path-to\Anaconda3\cwp.py" "C:\path-to\Anaconda3" "C:\path-to\Anaconda3\python.exe" "C:\path-to\Anaconda3\Scripts\jupyter-notebook-script.py" "C:\path-to\URX-jupyter-notebook"
 
-..and run it! 
+Have Fun! 
